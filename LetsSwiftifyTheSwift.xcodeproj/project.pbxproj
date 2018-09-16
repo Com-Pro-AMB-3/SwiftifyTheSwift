@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C8FFF2C214E6D4F00F16FB5 /* Test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8FFF2B214E6D4F00F16FB5 /* Test2.swift */; };
+		3C8FFF2F214E6EE300F16FB5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8FFF2D214E6EE300F16FB5 /* SecondViewController.swift */; };
+		3C8FFF30214E6EE300F16FB5 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C8FFF2E214E6EE300F16FB5 /* SecondViewController.xib */; };
 		D8CE0EF31F7B85E400951110 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CE0EF21F7B85E400951110 /* AppDelegate.swift */; };
 		D8CE0EF51F7B85E400951110 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CE0EF41F7B85E400951110 /* ViewController.swift */; };
 		D8CE0EF81F7B85E400951110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8CE0EF61F7B85E400951110 /* Main.storyboard */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C8FFF2B214E6D4F00F16FB5 /* Test2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test2.swift; sourceTree = "<group>"; };
+		3C8FFF2D214E6EE300F16FB5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		3C8FFF2E214E6EE300F16FB5 /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 		D8CE0EEF1F7B85E400951110 /* LetsSwiftifyTheSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsSwiftifyTheSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8CE0EF21F7B85E400951110 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8CE0EF41F7B85E400951110 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,7 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				D8CE0EF21F7B85E400951110 /* AppDelegate.swift */,
+				3C8FFF2B214E6D4F00F16FB5 /* Test2.swift */,
 				D8CE0EF41F7B85E400951110 /* ViewController.swift */,
+				3C8FFF2D214E6EE300F16FB5 /* SecondViewController.swift */,
+				3C8FFF2E214E6EE300F16FB5 /* SecondViewController.xib */,
 				D8CE0EF61F7B85E400951110 /* Main.storyboard */,
 				D8CE0EFC1F7B85E400951110 /* Assets.xcassets */,
 				D8CE0EFE1F7B85E400951110 /* LaunchScreen.storyboard */,
@@ -235,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C8FFF30214E6EE300F16FB5 /* SecondViewController.xib in Resources */,
 				D8CE0F001F7B85E400951110 /* LaunchScreen.storyboard in Resources */,
 				D8CE0EFD1F7B85E400951110 /* Assets.xcassets in Resources */,
 				D8CE0EF81F7B85E400951110 /* Main.storyboard in Resources */,
@@ -262,8 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C8FFF2C214E6D4F00F16FB5 /* Test2.swift in Sources */,
 				D8CE0EFB1F7B85E400951110 /* LetsSwiftifyTheSwift.xcdatamodeld in Sources */,
 				D8CE0EF51F7B85E400951110 /* ViewController.swift in Sources */,
+				3C8FFF2F214E6EE300F16FB5 /* SecondViewController.swift in Sources */,
 				D8CE0EF31F7B85E400951110 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,6 +521,7 @@
 				D8CE0F1C1F7B85E400951110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8CE0F1D1F7B85E400951110 /* Build configuration list for PBXNativeTarget "LetsSwiftifyTheSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +530,7 @@
 				D8CE0F1F1F7B85E400951110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8CE0F201F7B85E400951110 /* Build configuration list for PBXNativeTarget "LetsSwiftifyTheSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +539,7 @@
 				D8CE0F221F7B85E400951110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
